@@ -1,0 +1,60 @@
+# Node modules
+/node_modules/
+
+# Yarn and npm lock files
+/yarn.lock
+/package-lock.json
+
+# Build directories
+/android/build/
+/android/app/build/
+/android/app/.cxx/
+/ios/build/
+/ios/Pods/
+
+
+# Expo files (if using Expo)
+.expo/
+
+# React Native packager
+/.expo/
+/.packager-cache/
+/metro-cache/
+
+# VSCode settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Android Studio specific files
+.gradle/
+/local.properties
+
+# Crashlytics generated files
+/crashlytics-build/
+
+# React Native specific files
+*.log
+*.lock
+*.swp
+
+# IDE / Editor files
+.idea/
+/*.iml
+
+# Generated files
+/dist/
+/build/
+/*.map
+
+# Debug files
+*.tgz
+
+# Coverage directory used by tools like istanbul
+/coverage/
+
+# Temporary files from IDEs like Xcode or Android Studio
+*.xcodeproj/
+*.xcworkspace/
+*.hmap
